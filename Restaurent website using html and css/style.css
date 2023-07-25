@@ -1,0 +1,273 @@
+:root{
+    --yellow:#FFC540;
+    --red:crimson;
+    --green:#538F50;
+    --white:whitesmoke;
+}
+
+
+
+
+body,h1{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('./media/pexels-rachel-claire-5490900.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--white);
+}
+header a{
+    text-decoration: none;
+    color: var(--yellow);
+
+
+}
+
+header{
+    display: flex;
+    padding: 1em;
+}
+#logo{
+    flex:3;
+    font-size: 1.25em;
+}
+
+nav{
+    flex:2;
+    display: flex;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color: var(--green);
+}
+
+.maintext{
+    display: flex;
+    flex-direction:column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color: var(--red);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: var(--yellow);
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width:20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: var(--green);
+    color: var(--white);
+    border: 1px solid var(--green);
+}
+.menu{
+    display: grid;
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: var(--white);
+    display: grid;
+    /* important */
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+}
+#menuheading {
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    font-size: 1em;
+     color: var(--red);
+     display: flex;
+     justify-content: center;
+    
+}
+#menuheading h1{
+    padding: 20px;
+}
+
+.menu th{
+    color: var(--green);
+    font-size: 1.5em;
+    
+}
+
+.menu table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+flex: 1;
+justify-self: left;
+}
+.menu td:nth-child(2){
+
+justify-self: right;
+}
+tr b{
+    color: #FFC540;
+}
+.locheading{
+    color: var(--green);
+    padding: 2rem;
+}
+.lunch{
+    grid-row: span 2;
+}
+
+.locations,.cs{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: var(--white);
+    
+}
+
+.cs{
+    display: flex;
+    justify-content: start;
+    align-items:center ;
+    margin: 0px;
+    color: var(--red);
+    padding: 2rem;
+    
+}
+.trans{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 50%;
+    /* background-color:brown; */
+    animation-name: circle;
+    animation: mymove 10s infinite ;
+    
+}
+@keyframes circle{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    100%{
+        background-color: var(--green);
+        width: 600px;
+        height: 50px;
+    }
+}
+
+
+.locations{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 100px;
+   padding: 1em;
+   min-width: 320px;
+   
+
+   
+   
+   
+   
+}
+
+    
+.locations h2{
+    margin-bottom: .8em;
+    color: darkcyan;
+}
+
+.annanager{
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+
+}
+.velachery{
+    display: flex;
+     flex: 3;
+    flex-wrap: wrap;
+
+
+}
+.thambaram div{
+    display: flex;
+
+    flex-wrap: wrap;
+    flex: 3;
+}
+footer{
+    background-color: rgb(55,55,55);
+    color: var(--white);
+    padding: .25em 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
